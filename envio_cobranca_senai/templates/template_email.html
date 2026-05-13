@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <style>
+
+        body {
+            padding: 20px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th{
+           border: 1px solid #000;
+           
+        }
+
+        td{
+           border: 1px solid #000;
+           padding: 2px 10px;
+        }
+        thead {
+            background-color: #dcdcdc;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+        a:hover {
+            text-decoration: none;
+       
+        }
+    </style>
+</head>
+<body>
+    <p>Prezado(a) Senhor(a) $_$CLIENTE$_$</p><br><br>
+
+    <p>Não localizamos o pagamento da(s) parcela(s) abaixo relacionada(s), que já se encontra(m) vencida(s):</p>
+    <br>
+
+    <table>
+        <thead>
+            <th>Aluno</th>
+            <th>Contrato</th>
+            <th>Serviço</th>
+            <th>Parcela</th>
+            <th>Vencimento</th>
+            <th>Valor Original</th>
+        </thead>
+        <tbody>
+             $_$TABELA_TITULOS$_$ 
+        </tbody>
+    </table>
+    <p style="display: flex; justify-content: end;"><strong>Total: $_$TOTAL$_$</strong></p>
+    <br>
+    <p>Por gentileza entrem em contato, imediatamente, com nossa central de atendimento, através do telefone <a target="_blank" href="https://wa.me/556932163468">(69) 3216-3468</a> (Fone e Whatsapp) ou envie um e-mail para supervisao.financeira@fiero.org.br, no prazo de até 5 dias a partir da data do recebimento deste.</p>
+    <p>O não atendimento desta solicitação poderá implicar na inserção do cliente no SPC - Serviço de Proteção ao Crédito e consequente protesto do (s) título (os) em aberto.</p>
+    <p>Caso a (s) parcela (s) acima estiver (em) quitada (s), por favor, desconsiderar este aviso e nos enviar uma cópia do comprovante de pagamento através do e-mail citado a cima, para fins de regularização do débito pendente.</p>
+    <p>Atenciosamente,<br>Coordenação, Orçamento e Finanças<br>SISTEMA FIERO<br> Rua Rui Barbosa, 1112<br> Arigolândia - Porto Velho/RO<br> CEP: 76801-186</p>
+
+</body>
+</html>
